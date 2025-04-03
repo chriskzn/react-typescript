@@ -16,6 +16,10 @@ function App() {
     enum Codes {first = 1, second = 2};
     // any
     let firstName: any = 'Manny';
+    // void
+    const warning = (): void => {
+      console.log('Warning');
+    }
 
     return (
       <div className="App">
